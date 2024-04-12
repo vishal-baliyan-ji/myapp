@@ -12,5 +12,6 @@
     "dest": "vercel_app/app.py"
   }
 ]
+  { "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
 
 }
