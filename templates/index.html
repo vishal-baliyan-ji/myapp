@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <div class="logo">
+        <h1 class="site_name">E-Commerce</h1>
+    </div>
+    <div class="sidebar">
+        <a href="/" class="options">Home</a>
+        <img src="{{url_for('static',filename='assets/close.png')}}" alt="" class="close">
+    </div>
+    <img src="{{url_for('static',filename='assets/menu.png')}}" alt="Image not found" class="menu">
+    <script src="{{url_for('static',filename='js/js.js')}}"></script>
+    <div class="top_products">
+        <div class="products">
+            <img src="{{url_for('static',filename='assets/img1.jpeg')}}" alt="" srcset="" class="p_img">
+            <button type="submit" class="buy_button">Buy</button></div>
+        <div class="products">
+            <img src="{{url_for('static',filename='assets/img2.jpeg')}}" alt="" srcset="" class="p_img">
+            <button type="submit" class="buy_button">Buy</button></div>
+        <div class="products">
+            <img src="{{url_for('static',filename='assets/img1.jpeg')}}" alt="" srcset="" class="p_img">
+            <button type="submit" class="buy_button">Buy</button></div>
+        <div class="products">
+            <img src="{{url_for('static',filename='assets/img2.jpeg')}}" alt="" srcset="" class="p_img">
+            <button type="submit" class="buy_button">Buy</button></div>
+
+    </div>
+</body>
+</html>
